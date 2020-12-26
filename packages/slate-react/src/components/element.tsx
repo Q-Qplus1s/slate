@@ -173,7 +173,7 @@ export const DefaultElement = (props: RenderElementProps) => {
  * kept in order, and the odd case where they aren't is okay to re-render for.
  */
 
-const isRangeListEqual = (list: Range[], another: Range[]): boolean => {
+export const isRangeListEqual = (list: Range[], another: Range[]): boolean => {
   if (list.length !== another.length) {
     return false
   }
@@ -181,6 +181,11 @@ const isRangeListEqual = (list: Range[], another: Range[]): boolean => {
   for (let i = 0; i < list.length; i++) {
     const range = list[i]
     const other = another[i]
+    // 特定项目额外增加属性判断
+    // @ts-ignore
+    if (range.expand !== another.expand) {
+      return false
+    }
 
     if (!Range.equals(range, other)) {
       return false
