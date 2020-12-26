@@ -2242,6 +2242,32 @@
     estree-walker "^1.0.1"
     picomatch "^2.2.2"
 
+"@shware/slate-history@^0.60.1":
+  version "0.60.1"
+  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate-history/download/@shware%2fslate-history-0.60.1.tgz#427123011e5de78b68eb4950b485a4bd279b9f61"
+  integrity sha1-QnEjAR5d54to60lQtIWkvSebn2E=
+  dependencies:
+    immer "^5.0.0"
+    is-plain-object "^3.0.0"
+
+"@shware/slate-hyperscript@^0.60.1":
+  version "0.60.1"
+  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate-hyperscript/download/@shware%2fslate-hyperscript-0.60.1.tgz#d614d52c942beed0199fc2ed27d43df478c2e981"
+  integrity sha1-1hTVLJQr7tAZn8LtJ9Q99HjC6YE=
+  dependencies:
+    is-plain-object "^3.0.0"
+
+"@shware/slate@^0.60.1":
+  version "0.60.1"
+  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate/download/@shware%2fslate-0.60.1.tgz#aaacdfb4969afa3f572642c67a3a7fb3db5304ba"
+  integrity sha1-qqzftJaa+j9XJkLGejp/s9tTBLo=
+  dependencies:
+    "@types/esrever" "^0.2.0"
+    esrever "^0.2.0"
+    immer "^5.0.0"
+    is-plain-object "^3.0.0"
+    tiny-warning "^1.0.3"
+
 "@types/color-name@^1.1.1":
   version "1.1.1"
   resolved "https://registry.yarnpkg.com/@types/color-name/-/color-name-1.1.1.tgz#1c1261bbeaa10a8055bbc5d8ab84b7b2afc846a0"

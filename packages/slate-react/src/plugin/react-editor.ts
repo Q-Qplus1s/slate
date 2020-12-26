@@ -1,4 +1,12 @@
-import { Editor, Node, Path, Point, Range, Transforms, Descendant } from 'slate'
+import {
+  Editor,
+  Node,
+  Path,
+  Point,
+  Range,
+  Transforms,
+  Descendant,
+} from '@shware/slate'
 
 import { Key } from '../utils/key'
 import {

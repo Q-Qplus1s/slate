@@ -18,6 +18,8 @@
     "is-plain-object": "^3.0.0"
   },
   "devDependencies": {
+    "@shware/slate": "^0.60.1",
+    "@shware/slate-hyperscript": "^0.60.1",
     "slate": "^0.60.1",
     "slate-hyperscript": "^0.60.1"
   },

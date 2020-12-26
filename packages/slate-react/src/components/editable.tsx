@@ -8,8 +8,8 @@ import {
   Text,
   Transforms,
   Path,
-} from 'slate'
-import { HistoryEditor } from 'slate-history'
+} from '@shware/slate'
+import { HistoryEditor } from '@shware/slate-history'
 import throttle from 'lodash/throttle'
 import scrollIntoView from 'scroll-into-view-if-needed'
 
@@ -992,7 +992,7 @@ export const Editable = (props: EditableProps) => {
  * A default memoized decorate function.
  */
 
-const defaultDecorate = () => []
+const defaultDecorate: () => any[] = () => []
 
 /**
  * Check if two DOM range objects are equal.

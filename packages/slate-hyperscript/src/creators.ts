@@ -6,7 +6,7 @@ import {
   Text,
   Editor,
   createEditor as makeEditor,
-} from 'slate'
+} from '@shware/slate'
 import {
   AnchorToken,
   FocusToken,

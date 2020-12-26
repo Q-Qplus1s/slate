@@ -23,6 +23,9 @@
     "scroll-into-view-if-needed": "^2.2.20"
   },
   "devDependencies": {
+    "@shware/slate": "^0.60.1",
+    "@shware/slate-history": "^0.60.1",
+    "@shware/slate-hyperscript": "^0.60.1",
     "slate": "^0.60.1",
     "slate-history": "^0.60.1",
     "slate-hyperscript": "^0.60.1"

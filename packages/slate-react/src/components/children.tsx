@@ -1,5 +1,12 @@
 import React from 'react'
-import { Editor, Range, Element, NodeEntry, Ancestor, Descendant } from 'slate'
+import {
+  Editor,
+  Range,
+  Element,
+  NodeEntry,
+  Ancestor,
+  Descendant,
+} from '@shware/slate'
 
 import ElementComponent from './element'
 import TextComponent from './text'

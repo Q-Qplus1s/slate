@@ -1,5 +1,5 @@
 import React from 'react'
-import { Element, Text } from 'slate'
+import { Element, Text } from '@shware/slate'
 import String from './string'
 import { PLACEHOLDER_SYMBOL } from '../utils/weak-maps'
 import { RenderLeafProps } from './editable'
@@ -45,6 +45,7 @@ const Leaf = (props: {
             textDecoration: 'none',
           }}
         >
+          {/* @ts-ignore */}
           {leaf.placeholder}
         </span>
         {children}
