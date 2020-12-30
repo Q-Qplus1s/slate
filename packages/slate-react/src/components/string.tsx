@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { Editor, Text, Path, Element, Node } from '@shware/slate'
 
 import { ReactEditor, useSlateStatic } from '..'
+import { useIsomorphicLayoutEffect } from '../hooks/use-isomorphic-layout-effect'
 
 /**
  * Leaf content strings.
@@ -58,8 +59,23 @@ const String = (props: {
 
 const TextString = (props: { text: string; isTrailing?: boolean }) => {
   const { text, isTrailing = false } = props
+  const ref = useRef<HTMLSpanElement>(null)
+  useIsomorphicLayoutEffect(() => {
+    // if (ref.current && ref.current.innerText !== text) {
+    //   ref.current.innerText = text
+    // }
+    if (ref.current) {
+      let htmlText = ref.current.innerText
+      if (isTrailing) {
+        htmlText = htmlText.slice(0, -1)
+      }
+      if (htmlText !== text) {
+        ref.current.innerText = text + (isTrailing ? '\n' : '')
+      }
+    }
+  })
   return (
-    <span data-slate-string>
+    <span data-slate-string ref={ref}>
       {text}
       {isTrailing ? '\n' : null}
     </span>

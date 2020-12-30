@@ -2244,23 +2244,23 @@
 
 "@shware/slate-history@^0.60.1":
   version "0.60.1"
-  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate-history/download/@shware%2fslate-history-0.60.1.tgz#427123011e5de78b68eb4950b485a4bd279b9f61"
-  integrity sha1-QnEjAR5d54to60lQtIWkvSebn2E=
+  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate-history/download/@shware%2fslate-history-0.60.1.tgz#0644571c3d50a12369fc86fd465516e0121e82f0"
+  integrity sha1-BkRXHD1QoSNp/Ib9RlUW4BIegvA=
   dependencies:
     immer "^5.0.0"
     is-plain-object "^3.0.0"
 
 "@shware/slate-hyperscript@^0.60.1":
   version "0.60.1"
-  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate-hyperscript/download/@shware%2fslate-hyperscript-0.60.1.tgz#d614d52c942beed0199fc2ed27d43df478c2e981"
-  integrity sha1-1hTVLJQr7tAZn8LtJ9Q99HjC6YE=
+  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate-hyperscript/download/@shware%2fslate-hyperscript-0.60.1.tgz#6c66980caa5c638f27963c4fe3cde626d670710b"
+  integrity sha1-bGaYDKpcY48nljxP483mJtZwcQs=
   dependencies:
     is-plain-object "^3.0.0"
 
 "@shware/slate@^0.60.1":
   version "0.60.1"
-  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate/download/@shware%2fslate-0.60.1.tgz#aaacdfb4969afa3f572642c67a3a7fb3db5304ba"
-  integrity sha1-qqzftJaa+j9XJkLGejp/s9tTBLo=
+  resolved "https://registry-node.aliyun.com/org/1216447411575233/registry/shware/@shware%2fslate/download/@shware%2fslate-0.60.1.tgz#c6a8be3ec252013519e1290c4239d2b7c6d09ef4"
+  integrity sha1-xqi+PsJSATUZ4SkMQjnSt8bQnvQ=
   dependencies:
     "@types/esrever" "^0.2.0"
     esrever "^0.2.0"
